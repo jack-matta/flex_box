@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main{
+    display: flex;
+}
+.principal{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(232, 232, 232);
+    min-height: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.principal img{
+    width: 200px;
+    border-radius: 20px;
+}
+.contactos{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    border-right: solid 1px;
+}
+
+.contactos .contacto{
+    display: flex;
+    border-color: black;
+    border-top: solid 1px;
+    padding: 5px;
+}
+.contactos .contacto img{
+    width: 60px;
+    height: 60px;
+    border-radius: 200px;
+    padding-left: 5px;
+}
+.contactos .contacto .info{
+    text-align: left;
+    padding: 9px;
+    padding-left: 10px;
+}
+.nuevo-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    padding: 14px;
+}
+.nuevo-chat button{
+    padding: 20px;
+    background-color: rgb(192, 142, 238);
+    color: white;
+    border-radius: 8px;
+}
+.contactos nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.contactos nav img{
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+}
+.contactos nav .perfil{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
+.contactos nav .perfil .info{
+    padding: 5px;
+}
+.contactos nav .items{
+    display: flex;
+    align-items: center;
+}
+.contactos nav i{
+    padding: 10px;
+}
+.contactos .contacto:hover{
+    background-color: rgb(43, 134, 226);
+}
